@@ -62,6 +62,10 @@ For more information on the available join options, see the following sections:
 - [Azure Active Directory join](#user-driven-mode-for-azure-active-directory-join) is available if devices don't need to be joined to an on-prem Active Directory domain.
 - [Hybrid Azure Active Directory join](#user-driven-mode-for-hybrid-azure-active-directory-join) is available for devices that must be joined to both Azure Active Directory and your on-prem Active Directory domain.
 
+[!Tip]
+    > As we talk with our customers that are using Microsoft Endpoint Manager to deploy, manage, and secure their client devices, we often get questions regarding co-managing devices and hybrid Azure Active Directory (AD) joined devices. Many customers confuse these two topics – the first is a management option, while the second is an identity option. See the blog post [Understanding hybrid Azure AD and co-management scenarios] ( https://techcommunity.microsoft.com/t5/microsoft-endpoint-manager-blog/understanding-hybrid-azure-ad-join-and-co-management/ba-p/2221201) This blog aims to clarify Hybrid Azure AD Join and co-management, how they work together but are not the same thing.
+ >
+
 ## User-driven mode for Azure Active Directory join
 
 To complete a user-driven deployment using Windows Autopilot, follow these preparation steps:
